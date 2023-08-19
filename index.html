@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navBar">
+        <!-- Navigation Bar -->
+        <div class="navText" id="mainIcon">Library System</div>
+        <ul class="navText flexDisplay" id="navContents">
+            <li><a href="#" >Books</a></li>
+            <li><a href="#" >Register</a></li>
+            <li><a href="#" >Contact Us</a></li>
+            <li><a href="#" >Logout</a></li>            
+        </ul>        
+    </nav>
+    <div id="container">
+        <div id="books">
+            <label style="font-size: 40px; ">Books</label>
+            <table id="booksTable">
+                <thead>
+                    <tr>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <span><b> Harry Potter and the Sorcerer's Stone </b></span>
+                            <table class="pubDetail">
+                                <tr>
+                                    <th>Publication Date</th>
+                                    <th>Page Count</th>
+                                    <th>ISBN</th>
+                                </tr>   
+                                <tr>
+                                    <td>1997</td>
+                                    <td>320</td>
+                                    <td>978-0-545-01022-3</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>J.K. Rowling</td>
+                        <td>Fantasy</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <span><b> Harry Potter and the Chamber of Secrets </b></span>
+                            <table class="pubDetail">
+                                <tr>
+                                    <th>Publication Date</th>
+                                    <th>Page Count</th>
+                                    <th>ISBN</th>
+                                </tr>   
+                                <tr>
+                                    <td>1998</td>
+                                    <td>352</td>
+                                    <td>978-0-545-01022-3</td>
+                                </tr>   
+                            </table>
+                        </td>
+                        <td>J.K. Rowling</td>
+                        <td>Fantasy</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <span><b> Harry Potter and the Prisoner of Azkaban </b></span>
+                            <table class="pubDetail">
+                                <tr>
+                                    <th>Publication Date</th>
+                                    <th>Page Count</th>
+                                    <th>ISBN</th>
+                                </tr>   
+                                <tr>
+                                    <td>1999</td>
+                                    <td>448</td>
+                                    <td>978-0-439-13635-8</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>J.K. Rowling</td>
+                        <td>Fantasy</td>
+                        <td>Not Available</td>
+                    </tr>                                        
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <span><b> Harry Potter and the Goblet of Fire </b></span>
+                            <table class="pubDetail">
+                                <tr>
+                                    <th>Publication Date</th>
+                                    <th>Page Count</th>
+                                    <th>ISBN</th>
+                                </tr>   
+                                <tr>
+                                    <td>2000</td>
+                                    <td>752</td>
+                                    <td>978-0-439-13959-5</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>J.K. Rowling</td>
+                        <td>Fantasy</td>
+                        <td>Available</td>
+                    </tr>                    
+                </tbody>
+            </table>
+        </div>
+        <!-- Register form -->
+        <div id="register">
+            <label style="font-size: 40px;">Register</label>
+            <form action="#">
+                <label for="firstName">First Name</label><br>
+                <input type="text" id="firstName" name="firstName" minlength="3" maxlength="50" required><br>
+
+                <label for="lastName">First Name</label><br>
+                <input type="text" id="lastName" name="lastName" minlength="3" maxlength="50" required><br>
+
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" required><br>
+
+                <label for="age">Age</label><br>
+                <input type="number" id="age" name="age" min="18" max="50" required><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required><br>      
+
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" minlength="8" maxlength="15" required><br>
+
+                <label for="confirmPassword">Confirm Password</label><br>
+                <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" maxlength="15" required><br>
+                
+                <button id="button" type="submit" name="submit">Register</button><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

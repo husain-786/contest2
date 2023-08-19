@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+#navBar{
+    padding-left: 20px;
+    height: 12vh;
+    width: 100%;
+    background-color:rgb(33, 28, 28) ;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin-bottom: 40px;
+}
+
+.navText{
+    color:#fff;
+    font-size: xx-large;
+}
+
+#mainIcon{
+    font-size: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.flexDisplay{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+#navContents{
+    width: 50%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none !important;
+    color: #fff;    
+}
+
+a:hover{
+    color: green;
+}
+
+#books{
+    /* box-shadow: 0px 0px 10px rgba(0.4, 0.4, 0.4, 0.4);  */
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#booksTable{
+    margin-top: 20px;
+    border-collapse: collapse; 
+    background-color: #fff;    
+    box-shadow: 0px 10px 10px rgba(0.4, 0.4, 0.4, 0.4); 
+}
+#booksTable th{
+    border: 2px solid black; 
+    text-align: center;
+    padding: 5px;
+}
+#booksTable td{
+    border: 2px solid black; 
+    text-align: center;
+    padding: 5px;
+}
+#booksTable tr{
+    border: 2px solid black; 
+    text-align: center;
+    padding: 5px;
+}
+
+#booksTable table{
+    border-collapse: collapse; 
+    background-color: rgb(227, 252, 252);
+    margin: 10px;
+}
+
+#booksTable table th{
+    border: 1px solid black; 
+    text-align: center;
+}
+
+#booksTable table td{
+    border: 1px solid black; 
+    text-align: center;
+}
+#booksTable table tr{
+    border: 1px solid black; 
+    text-align: center;
+}
+
+#register{
+    width:50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+form{
+    background-color: #fff;
+    box-shadow: 0px 10px 10px rgba(0.4, 0.4, 0.4, 0.4); 
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+form label{
+    font-size: 20px;
+}
+form input{
+    width: 46vw;
+    height: 4vh;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+#button{
+    margin-top: 40px;
+    height: 5vh;
+    width: 46.5vw;
+    background-color: rgb(26, 22, 22);
+    color: wheat;
+}
